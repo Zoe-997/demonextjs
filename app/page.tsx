@@ -15,7 +15,7 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-// import Logo3i from "@/public/images/logo/logo3i.png";
+import Logo3i from "../public/images/logo/logo3i.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +31,7 @@ export async function generateMetadata(
 
   return {
     openGraph: {
-      images: ['../public/images/logo/logo3i.png', ...previousImages],
+      images: ['Logo3i.src', ...previousImages],
     },
   }
 }
